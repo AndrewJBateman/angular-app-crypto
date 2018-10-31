@@ -1,0 +1,22 @@
+div#crypto-container {
+  background: white;
+  width: 70%;
+  margin: 0 auto 4px auto;
+  padding: 1em;
+  box-shadow: 1px 1px 0 lightgrey;
+}
+
+h1 {
+  position: center;
+  width: 70%;
+  margin: 0 auto 4px auto;
+  padding: 1em;
+}
+
+span.left {
+  font-weight: bold;
+}
+
+span.right {
+  float: right;
+}
