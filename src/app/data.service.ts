@@ -4,19 +4,19 @@ import { map } from 'rxjs/operators';
 
 @Injectable()
 export class DataService {
-	// tslint:disable-next-line:indent
 	result: 			any;
 	currencyCode:	string;
 	display:			string;
 
-  constructor(private _http: HttpClient) {}
+  constructor(private http: HttpClient) {}
 
+  // function to get cryto prices from the API - no API key required.
   getPrices() {
-// tslint:disable-next-line:indent
 		const fsymsList = 'BTC,XRP,BCH,ETH,ZEC,EOS,XMR,ETC,LTC,DASH,QTUM,NEO,XLM,TRX,ADA,BTS,USDT,XUC,PAX,IOT';
-    return this._http
+    return this.http
       .get('https://min-api.cryptocompare.com/data/pricemulti?fsyms=' + fsymsList + '&tsyms=USD')
-			.pipe(map(result => (this.result = result)));
-
+			.pipe(map(
+        result => this.result = result
+      ));
 	}
 }

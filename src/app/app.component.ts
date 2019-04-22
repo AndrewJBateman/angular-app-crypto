@@ -12,11 +12,10 @@ export class AppComponent {
 
   constructor(private _data: DataService) {}
 
-  // tslint:disable-next-line:use-life-cycle-interface
   ngOnInit() {
     this._data.getPrices().subscribe(res => {
       this.cryptos = res;
-      console.log(res);
+      console.table(this.cryptos);
     });
   }
 }
