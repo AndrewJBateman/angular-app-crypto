@@ -10,7 +10,7 @@ export class DataService {
 
   constructor(private http: HttpClient) {}
 
-  // function to get cryto prices from the API - no API key required.
+  // function to get crypto prices from the API - no API key required.
   getPrices() {
 		const fsymsList = 'BTC,XRP,BCH,ETH,ZEC,EOS,XMR,ETC,LTC,DASH,QTUM,NEO,XLM,TRX,ADA,BTS,USDT,XUC,PAX,IOT';
     return this.http

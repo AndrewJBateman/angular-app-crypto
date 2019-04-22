@@ -1,6 +1,6 @@
 # Angular App Crypto
 
-* App to get crytocurrency price data from a [CryptoCompare](https://min-api.cryptocompare.com/) API.
+* App to get crypto currency price data from a [CryptoCompare](https://min-api.cryptocompare.com/) API.
 
 *** Note: to open web links in a new window use: _ctrl+click on link_**
 
@@ -25,13 +25,13 @@
 
 ## Screenshots
 
-![Example screenshot](./img/users.png).
+![Example screenshot](./img/crypto-currencies.png).
 
 ## Technologies
 
-* [Angular v7.0.0](https://angular.io/) & [Angular CLI v7.3.8](https://cli.angular.io/).
+* [Angular v7.2.13](https://angular.io/) & [Angular CLI v7.3.8](https://cli.angular.io/).
 
-* [RxJS Library v6.3.3](https://angular.io/guide/rx-library) used to [subscribe](http://reactivex.io/documentation/operators/subscribe.html) to the API data [observable](http://reactivex.io/documentation/observable.html).
+* [RxJS Library v6.4.0](https://angular.io/guide/rx-library) used to [subscribe](http://reactivex.io/documentation/operators/subscribe.html) to the API data [observable](http://reactivex.io/documentation/observable.html).
 
 ## Setup
 
@@ -51,7 +51,7 @@ export class DataService {
 
   constructor(private http: HttpClient) {}
 
-  // function to get cryto prices from the API - no API key required.
+  // function to get crypto prices from the API - no API key required.
   getPrices() {
     const fsymsList = 'BTC,XRP,BCH,ETH,ZEC,EOS,XMR,ETC,LTC,DASH,QTUM,NEO,XLM,TRX,ADA,BTS,USDT,XUC,PAX,IOT';
     return this.http
@@ -69,6 +69,8 @@ export class DataService {
 * Angular httpClient used to get data from an external API.
 
 * [Angular currency pipe](https://angular.io/api/common/CurrencyPipe) & [rxjs map operator](https://angular.io/guide/rx-library) used to extract currency data and display it to the correct format.
+
+* updated to the latest version of Angular 7. Dependencies updated with 0 dependency vulnerabilities.
 
 ## Status & To-Do List
 
