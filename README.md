@@ -21,7 +21,7 @@
 
 * Data displayed using one-way data-binding and an *ngFor loop.
 
-* separate data.service.ts file used to get API price data. This data is subscribed to in app.component.ts
+* Separate data.service.ts file used to get API price data. This data is subscribed to in app.component.ts
 
 ## Screenshots
 
@@ -29,9 +29,10 @@
 
 ## Technologies
 
-* [Angular v7.2.13](https://angular.io/) & [Angular CLI v7.3.8](https://cli.angular.io/).
+* [Angular v8.0.0](https://angular.io/)
+[Angular CLI v8.0.1](https://cli.angular.io/).
 
-* [RxJS Library v6.4.0](https://angular.io/guide/rx-library) used to [subscribe](http://reactivex.io/documentation/operators/subscribe.html) to the API data [observable](http://reactivex.io/documentation/observable.html).
+* [RxJS Library v6.5.2](https://angular.io/guide/rx-library) used to [subscribe](http://reactivex.io/documentation/operators/subscribe.html) to the API data [observable](http://reactivex.io/documentation/observable.html).
 
 ## Setup
 
@@ -70,11 +71,11 @@ export class DataService {
 
 * [Angular currency pipe](https://angular.io/api/common/CurrencyPipe) & [rxjs map operator](https://angular.io/guide/rx-library) used to extract currency data and display it to the correct format.
 
-* updated to the latest version of Angular 7. Dependencies updated with 0 dependency vulnerabilities.
+* Updated to the latest version of Angular 8. Dependencies updated with 0 dependency vulnerabilities.
 
 ## Status & To-Do List
 
-* Status: Simple working app that extracts API cryptocurrency data and displays it.
+* Status: Working.
 
 * To-Do: add mat-cards and colours to improve UI.
 
@@ -84,4 +85,4 @@ export class DataService {
 
 ## Contact
 
-Created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
+Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
