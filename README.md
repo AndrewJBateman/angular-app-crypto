@@ -27,13 +27,15 @@
 
 ## Technologies
 
-* [Angular v8.0.0](https://angular.io/)
-[Angular CLI v8.0.1](https://cli.angular.io/).
-* [RxJS Library v6.5.2](https://angular.io/guide/rx-library) used to [subscribe](http://reactivex.io/documentation/operators/subscribe.html) to the API data [observable](http://reactivex.io/documentation/observable.html).
+* [Angular v9.0.2](https://angular.io/)
+* [Angular CLI v9.93](https://cli.angular.io/).
+* [RxJS Library v6.5.4](https://angular.io/guide/rx-library) used to [subscribe](http://reactivex.io/documentation/operators/subscribe.html) to the API data [observable](http://reactivex.io/documentation/observable.html).
 
 ## Setup
 
-Install dependencies using `npm i`. Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* Install dependencies using `npm i`.
+* You may need to change one dependency version so it will work - 'npm i @angular-devkit/build-angular@0.803.24'.
+* Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code Examples
 
@@ -66,7 +68,7 @@ export class DataService {
 
 * Angular httpClient used to get data from an external API.
 * [Angular currency pipe](https://angular.io/api/common/CurrencyPipe) & [rxjs map operator](https://angular.io/guide/rx-library) used to extract currency data and display it to the correct format.
-* Updated to the latest version of Angular 8. Dependencies updated with 0 dependency vulnerabilities.
+* Updated to the latest version of Angular 9. Dependencies updated with 0 dependency vulnerabilities. Note version typescript@3.7.5 used (not the llatest).
 
 ## Status & To-Do List
 
