@@ -23,12 +23,11 @@
 
 ## Screenshots
 
-![Example screenshot](./img/crypto-currencies.png).
+![Example screenshot](./img/crypto-euro.png).
 
 ## Technologies
 
 * [Angular v9.0.2](https://angular.io/)
-* [Angular CLI v9.93](https://cli.angular.io/).
 * [RxJS Library v6.5.4](https://angular.io/guide/rx-library) used to [subscribe](http://reactivex.io/documentation/operators/subscribe.html) to the API data [observable](http://reactivex.io/documentation/observable.html).
 
 ## Setup
@@ -51,24 +50,24 @@ export class DataService {
 
   constructor(private http: HttpClient) {}
 
-  // function to get crypto prices from the API - no API key required.
+  // function to get crypto prices in euro from the API - no API key required.
   getPrices() {
-    const fsymsList = 'BTC,XRP,BCH,ETH,ZEC,EOS,XMR,ETC,LTC,DASH,QTUM,NEO,XLM,TRX,ADA,BTS,USDT,XUC,PAX,IOT';
+		const fsymsList = 'BTC,XRP,BCH,ETH,ZEC,EOS,XMR,ETC,LTC,DASH,QTUM,NEO,XLM,TRX,ADA,BTS,USDT,XUC,PAX,IOT';
     return this.http
-      .get('https://min-api.cryptocompare.com/data/pricemulti?fsyms=' + fsymsList + '&tsyms=USD')
-      .pipe(map(
+      .get('https://min-api.cryptocompare.com/data/pricemulti?fsyms=' + fsymsList + '&tsyms=EUR')
+			.pipe(map(
         result => this.result = result
       ));
   }
 }
-
 ```
 
 ## Features
 
 * Angular httpClient used to get data from an external API.
 * [Angular currency pipe](https://angular.io/api/common/CurrencyPipe) & [rxjs map operator](https://angular.io/guide/rx-library) used to extract currency data and display it to the correct format.
-* Updated to the latest version of Angular 9. Dependencies updated with 0 dependency vulnerabilities. Note version typescript@3.7.5 used (not the llatest).
+* Updated to the latest version of Angular 9.
+* Dependencies updated with 0 dependency vulnerabilities. Note version typescript@3.7.5 used (not the latest).
 
 ## Status & To-Do List
 

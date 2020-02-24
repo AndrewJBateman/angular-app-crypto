@@ -2,7 +2,7 @@
 	<h1>CryptoCompare API Results</h1>
 	<div id="crypto-container" *ngFor="let crypto of objectKeys(cryptos)">
     <span class="left">{{ crypto }}</span>
-    <span class="right">{{ cryptos[crypto].USD | currency:'USD' }}</span>
+    <span class="right">{{ cryptos[crypto].EUR | currency:'EUR' }}</span>
   </div>
 </div>
 
