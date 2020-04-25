@@ -1,13 +1,17 @@
 <div *ngIf="cryptos">
-	<h1>CryptoCompare API Results</h1>
-	<div id="crypto-container" *ngFor="let crypto of objectKeys(cryptos)">
+  <h1>CryptoCompare API Results</h1>
+  <div id="crypto-container" *ngFor="let crypto of objectKeys(cryptos)">
     <span class="left">{{ crypto }}</span>
-    <span class="right">{{ cryptos[crypto].EUR | currency:'EUR' }}</span>
+    <span class="right">{{ cryptos[crypto].EUR | currency: "EUR" }}</span>
   </div>
 </div>
 
 <footer>
-	<br>
-	<a href="https://www.cryptocompare.com"	target="_blank"
-		title="cryptoCurrency_link">Data provided by CryptoCompare</a>
+  <br />
+  <a
+    href="https://www.cryptocompare.com"
+    target="_blank"
+    title="cryptoCurrency_link"
+    >Data provided by CryptoCompare</a
+  >
 </footer>

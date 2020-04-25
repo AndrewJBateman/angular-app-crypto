@@ -2,12 +2,13 @@ div#crypto-container {
   background: white;
   width: 70%;
   margin: 0 auto 4px auto;
-	padding: 1em;
-	border: grey;
+  padding: 1em;
+  border: grey;
   box-shadow: 2px 2px 0 lightgrey;
 }
 
-h1, a {
+h1,
+a {
   position: center;
   width: 70%;
   margin: 0 auto 4px auto;
