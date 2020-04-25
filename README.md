@@ -22,7 +22,7 @@
 
 * Angular httpClient used to get API data
 * Data displayed using one-way data-binding and an \*ngFor loop
-* Separate data.service.ts file used to get API price data. This data is subscribed to in app.component.ts
+* Separate `data.service.ts` file used to get API price data. This data is subscribed to in `app.component.ts`
 
 ## :camera: Screenshots
 
@@ -36,7 +36,6 @@
 ## :floppy_disk: Setup
 
 * Install dependencies using `npm i`.
-* You may need to change one dependency version so it will work - 'npm i @angular-devkit/build-angular@0.803.24'.
 * Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## :computer: Code Examples
@@ -72,12 +71,12 @@ export class DataService {
 * Angular httpClient used to get data from an external API.
 * [Angular currency pipe](https://angular.io/api/common/CurrencyPipe) & [rxjs map operator](https://angular.io/guide/rx-library) used to extract currency data and display it to the correct format.
 * Updated to the latest version of Angular 9.
-* Dependencies updated with 0 dependency vulnerabilities. Note version typescript@3.7.5 used (not the latest).
+* Dependencies updated with 0 dependency vulnerabilities.
 
 ## :clipboard: Status & To-Do List
 
 * Status: Working.
-* To-Do: add mat-cards and colours to improve UI. Upgrade ng.
+* To-Do: add mat-cards and colours to improve UI.
 
 ## :clap: Inspiration
 
