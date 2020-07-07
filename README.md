@@ -7,11 +7,11 @@
 ## :page_facing_up: Table of contents
 
 * [:zap: Angular App Crypto](#zap-angular-app-crypto)
-  * [:page_facing_up: Table of contents](#pagefacingup-table-of-contents)
+  * [:page_facing_up: Table of contents](#page_facing_up-table-of-contents)
   * [:books: General info](#books-general-info)
   * [:camera: Screenshots](#camera-screenshots)
-  * [:signal_strength: Technologies](#signalstrength-technologies)
-  * [:floppy_disk: Setup](#floppydisk-setup)
+  * [:signal_strength: Technologies](#signal_strength-technologies)
+  * [:floppy_disk: Setup](#floppy_disk-setup)
   * [:computer: Code Examples](#computer-code-examples)
   * [:cool: Features](#cool-features)
   * [:clipboard: Status & To-Do List](#clipboard-status--to-do-list)
@@ -30,7 +30,7 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v9](https://angular.io/)
+* [Angular v10](https://angular.io/)
 * [RxJS Library v6](https://angular.io/guide/rx-library) used to [subscribe](http://reactivex.io/documentation/operators/subscribe.html) to the [observable](http://reactivex.io/documentation/observable.html)
 
 ## :floppy_disk: Setup
@@ -70,12 +70,12 @@ export class DataService {
 
 * Angular httpClient used to get data from an external API.
 * [Angular currency pipe](https://angular.io/api/common/CurrencyPipe) & [rxjs map operator](https://angular.io/guide/rx-library) used to extract currency data and display it to the correct format.
-* Updated to the latest version of Angular 9.
+* Updated to the latest version of Angular 10.
 * Dependencies updated with 0 dependency vulnerabilities.
 
 ## :clipboard: Status & To-Do List
 
-* Status: Working.
+* Status: Working & Deployed to Github.
 * To-Do: add mat-cards and colours to improve UI.
 
 ## :clap: Inspiration
