@@ -1,6 +1,7 @@
 # :zap: Angular App Crypto
 
 * App to get crypto currency price data from a [CryptoCompare](https://min-api.cryptocompare.com/) API.
+* Code from [Gary Simon at DesignCourse](https://www.youtube.com/channel/UCVyRiMvfUNMA1UPlDPzG5Ow) - see [:clap: Inspiration](#clap-inspiration) below.
 
 **\* Note: to open web links in a new window use: _ctrl+click on link_**
 
@@ -30,7 +31,7 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v10](https://angular.io/)
+* [Angular v11](https://angular.io/)
 * [RxJS Library v6](https://angular.io/guide/rx-library) used to [subscribe](http://reactivex.io/documentation/operators/subscribe.html) to the [observable](http://reactivex.io/documentation/observable.html)
 
 ## :floppy_disk: Setup
@@ -70,13 +71,12 @@ export class DataService {
 
 * Angular httpClient used to get data from an external API.
 * [Angular currency pipe](https://angular.io/api/common/CurrencyPipe) & [rxjs map operator](https://angular.io/guide/rx-library) used to extract currency data and display it to the correct format.
-* Updated to the latest version of Angular 10.
 * Dependencies updated with 0 dependency vulnerabilities.
 
 ## :clipboard: Status & To-Do List
 
-* Status: Working & Deployed to Github.
-* To-Do: add mat-cards and colours to improve UI.
+* Status: Working
+* To-Do: add mat-cards and colours to improve UI
 
 ## :clap: Inspiration
 
