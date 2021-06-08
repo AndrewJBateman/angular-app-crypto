@@ -4,10 +4,10 @@
 * Code from [Gary Simon at DesignCourse](https://www.youtube.com/channel/UCVyRiMvfUNMA1UPlDPzG5Ow) - see [:clap: Inspiration](#clap-inspiration) below.
 * **Note:** to open web links in a new window use: _ctrl+click on link_
 
-![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/ionic-angular-todo-app?style=plastic)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/AndrewJBateman/ionic-angular-todo-app?style=plastic)
-![GitHub Repo stars](https://img.shields.io/github/stars/AndrewJBateman/ionic-angular-todo-app?style=plastic)
-![GitHub last commit](https://img.shields.io/github/last-commit/AndrewJBateman/ionic-angular-todo-app?style=plastic)
+![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/angular-app-crypto?style=plastic)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/AndrewJBateman/angular-app-crypto?style=plastic)
+![GitHub Repo stars](https://img.shields.io/github/stars/AndrewJBateman/angular-app-crypto?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/AndrewJBateman/angular-app-crypto?style=plastic)
 
 ## :page_facing_up: Table of contents
 
