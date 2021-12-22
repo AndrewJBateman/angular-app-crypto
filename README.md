@@ -35,8 +35,8 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v12](https://angular.io/)
-* [RxJS Library v6](https://angular.io/guide/rx-library) used to [subscribe](http://reactivex.io/documentation/operators/subscribe.html) to the [observable](http://reactivex.io/documentation/observable.html)
+* [Angular v13](https://angular.io/)
+* [RxJS Library v7](https://angular.io/guide/rx-library) used to [subscribe](http://reactivex.io/documentation/operators/subscribe.html) to the [observable](http://reactivex.io/documentation/observable.html)
 
 ## :floppy_disk: Setup
 
@@ -80,7 +80,7 @@ export class DataService {
 ## :clipboard: Status & To-Do List
 
 * Status: Working
-* To-Do: add mat-cards and colours to improve UI
+* To-Do: Nothing
 
 ## :clap: Inspiration
 
